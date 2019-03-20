@@ -1,0 +1,137 @@
+@import "partials/mixins";
+@import "blocktags";
+@import "header";
+@import "variables";
+@import "partials/footer";
+@import "about";
+
+
+p {
+  @include font-size(14);
+}
+
+.my-roboto-medium{
+    font-family: roboto-medium;
+    color: $mywhite;
+}
+
+.my-roboto-black{
+    font-family: roboto-black;
+    color: $mywhite;
+}
+
+
+.my_div{
+    &__content{
+        padding: 15%;
+    }
+        &__sidebar{
+        border: solid 1px $myred;
+        height: 100%;
+        padding: 1%;
+        &--a{
+            color: $myblue;
+        }
+    }
+}
+
+
+// Equal column on home page
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+// backround image for index content area
+.bg-image {
+  background-image: url('../assets/bg_index_main_content.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  //max-height: 450px;
+}
+
+#wrap {
+    min-height: 80%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -30px;
+}
+/* Set the fixed height of the footer here */
+#push{
+    height: 30px;
+}
+
+.h1-maroon{
+    color: $mymaroon !important;
+}
+
+.h1-white{
+    color: $mywhite !important;
+}
+
+.btn-info{
+    background-color: $myred !important;
+    border-color: $myred !important;
+    color: $mywhite !important;
+   font-weight: bold !important;
+    
+}
+.btn-info:hover{
+    background-color: $mywhite  !important;
+    border-color: $mywhite !important;
+    color: $myred !important;
+    
+}
+
+@media (max-width: 600px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+    .h1-maroon{
+        color: $mymaroon !important;
+        @include font-size(24);
+    }
+
+    .h1-white{
+        color: $mywhite !important;
+        @include font-size(24);
+    }
+
+}
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    
+    .h1-maroon{
+        color: $mymaroon !important;
+        @include font-size(24);
+        
+    }
+
+    .h1-white{
+        color: $mywhite !important;
+        @include font-size(24);
+    }
+
+}
+
+
+
+ 

@@ -1,0 +1,43 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,900");
+
+$myfont: 'Roboto', sans-serif, medium;
+
+a{
+    color: $mywhite !important;
+}
+a:hover{
+    color: $myblack;
+}
+html {
+    height: 100%;
+}
+body{
+    font-family: $myfont;
+    height: 100%;
+    padding-top: 50px;
+    color: $mywhite !important;
+}
+.form-control{
+    border: 3px solid $myblack !important;
+}
+.main>li{
+    padding: 0;
+  margin: 15px 0;
+  list-style-position: inside;
+  position: relative; left: -10px;   
+}
+.main>ul{
+      padding: 0;
+    margin-left: 12px;
+    -webkit-padding-start: 0;
+}
+
+
+.my-roboto-black{
+    font-family: 'Roboto' black;
+}
+
+.my-roboto-medium{
+    font-family: 'Roboto' medium;
+}

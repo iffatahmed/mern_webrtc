@@ -1,0 +1,53 @@
+
+@import "variables";
+
+
+.navbar{
+        background-color:$myred !important;
+        border-radius: 0 !important;
+        color: $mywhite !important;
+        border: 0 !important;
+    &-default{
+        border-color: transparent !important;
+    }
+    &-inverse
+    {  
+        
+        & .navbar-nav>li>a{
+            color:$mywhite !important;
+        }
+        & .navbar-nav>li>a:hover{
+            color:$mygray !important;
+        }  
+    }
+    &-brand{
+            @include font-size(24);
+            text-decoration: bold !important;
+            color: $mywhite !important;
+    }
+    &-toggle{
+        border-color: transparent !important;
+    }
+}
+
+    #navcol .icon-bar {
+      background: $mywhite !important;
+    }
+
+#navcol:hover,
+    #hamburger.is-active {
+      background: $mywhite !important;
+    }
+    
+    #navcol:hover .icon-bar,
+    #navcol.is-active .icon-bar {
+      background: $myred !important;
+    }
+    
+    #navcol:focus {
+      background: $myred !important;
+    }
+    
+    #navcol:focus .icon-bar {
+      background: $mywhite !important;
+    }

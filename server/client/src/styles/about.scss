@@ -1,0 +1,24 @@
+@import "variables";
+.border_div{
+    border: solid 2px $myblue;
+    
+    &--text{
+        padding: 2%;
+    }
+    &--fulllength{
+        width: 100%;
+    }
+    &--btndiv{
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10%;
+    }
+}
+.col-sm-4{
+    padding: 5%;
+}
+.btn-info:hover{
+    background-color: $myred !important;
+    color: $mywhite !important;
+}

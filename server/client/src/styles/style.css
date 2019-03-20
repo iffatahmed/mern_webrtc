@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,900");
+a {
+  color: #FFFFFF !important;
+}
+
+a:hover {
+  color: #000000;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif, medium;
+  height: 100%;
+  padding-top: 50px;
+  color: #FFFFFF !important;
+}
+
+.form-control {
+  border: 3px solid #000000 !important;
+}
+
+.main > li {
+  padding: 0;
+  margin: 15px 0;
+  list-style-position: inside;
+  position: relative;
+  left: -10px;
+}
+
+.main > ul {
+  padding: 0;
+  margin-left: 12px;
+  -webkit-padding-start: 0;
+}
+
+.my-roboto-black {
+  font-family: "Roboto" black;
+}
+
+.my-roboto-medium {
+  font-family: "Roboto" medium;
+}
+
+.navbar {
+  background-color: #c41414 !important;
+  border-radius: 0 !important;
+  color: #FFFFFF !important;
+  border: 0 !important;
+}
+.navbar-default {
+  border-color: transparent !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFFFFF !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #cecaca !important;
+}
+.navbar-brand {
+  font-size: 24px !important;
+  font-size: 2.4rem !important;
+  text-decoration: bold !important;
+  color: #FFFFFF !important;
+}
+.navbar-toggle {
+  border-color: transparent !important;
+}
+
+#navcol .icon-bar {
+  background: #FFFFFF !important;
+}
+
+#navcol:hover,
+#hamburger.is-active {
+  background: #FFFFFF !important;
+}
+
+#navcol:hover .icon-bar,
+#navcol.is-active .icon-bar {
+  background: #c41414 !important;
+}
+
+#navcol:focus {
+  background: #c41414 !important;
+}
+
+#navcol:focus .icon-bar {
+  background: #FFFFFF !important;
+}
+
+.blue_div {
+  background-color: #c41414;
+  text-align: right;
+  padding: 1%;
+  color: #FFFFFF;
+  width: 100%;
+}
+.blue_div--contactform {
+  text-align: left;
+}
+
+.btn-success {
+  width: 20%;
+}
+
+.btn-success:hover {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+
+.border_div {
+  border: solid 2px #00aeef;
+}
+.border_div--text {
+  padding: 2%;
+}
+.border_div--fulllength {
+  width: 100%;
+}
+.border_div--btndiv {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10%;
+}
+
+.col-sm-4 {
+  padding: 5%;
+}
+
+.btn-info:hover {
+  background-color: #c41414 !important;
+  color: #FFFFFF !important;
+}
+
+p {
+  font-size: 14px !important;
+  font-size: 1.4rem !important;
+}
+
+.my-roboto-medium {
+  font-family: roboto-medium;
+  color: #FFFFFF;
+}
+
+.my-roboto-black {
+  font-family: roboto-black;
+  color: #FFFFFF;
+}
+
+.my_div__content {
+  padding: 15%;
+}
+.my_div__sidebar {
+  border: solid 1px #c41414;
+  height: 100%;
+  padding: 1%;
+}
+.my_div__sidebar--a {
+  color: #00aeef;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bg-image {
+  background-image: url("../assets/bg_index_main_content.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrap {
+  min-height: 80%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -30px;
+}
+
+/* Set the fixed height of the footer here */
+#push {
+  height: 30px;
+}
+
+.h1-maroon {
+  color: #c73c3c !important;
+}
+
+.h1-white {
+  color: #FFFFFF !important;
+}
+
+.btn-info {
+  background-color: #c41414 !important;
+  border-color: #c41414 !important;
+  color: #FFFFFF !important;
+  font-weight: bold !important;
+}
+
+.btn-info:hover {
+  background-color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+  color: #c41414 !important;
+}
+
+@media (max-width: 600px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .h1-maroon {
+    color: #c73c3c !important;
+    font-size: 24px !important;
+    font-size: 2.4rem !important;
+  }
+
+  .h1-white {
+    color: #FFFFFF !important;
+    font-size: 24px !important;
+    font-size: 2.4rem !important;
+  }
+}
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .h1-maroon {
+    color: #c73c3c !important;
+    font-size: 24px !important;
+    font-size: 2.4rem !important;
+  }
+
+  .h1-white {
+    color: #FFFFFF !important;
+    font-size: 24px !important;
+    font-size: 2.4rem !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

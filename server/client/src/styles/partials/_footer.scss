@@ -1,0 +1,19 @@
+@import "../variables";
+
+.blue_div{
+    background-color: $myred;
+    text-align: right;
+    padding: 1%;
+    color: $mywhite;
+    width: 100%;
+    &--contactform{
+        text-align: left;
+    }
+}
+.btn-success{
+    width: 20%;
+}
+.btn-success:hover{
+    background-color: $mywhite !important;
+    color: $myblack !important;
+}
